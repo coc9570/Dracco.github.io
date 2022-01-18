@@ -74,7 +74,7 @@
 
 #logo {
     height: 100px;
-    width: auto;
+    width: 100px;
     object-fit:none;
     object-position: left top;
     
@@ -82,7 +82,7 @@
 
 #logo img {
     height: 100px;
-    width: auto;
+    width: 100px;
 }
 
 #sideImage {
