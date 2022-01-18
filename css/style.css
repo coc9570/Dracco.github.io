@@ -75,13 +75,13 @@
 #logo {
     height: 70px;
     width: auto;
-    position: absolute;
+    position: left top;
     top: 15px;
     left: 5%;
 }
 
 #logo img {
-    height: 70px;
+    height: 100px;
     width: auto;
 }
 
