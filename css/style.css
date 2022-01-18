@@ -10,13 +10,25 @@
     width: 100%;
 }
 
-#background {
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(#ff7720, #ff2020);
-    clip-path: polygon(65% 0, 100% 0, 100% 100%, 30% 100%);
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("https://github.com/coc9570/Dracco.github.io/blob/main/assets/istockphoto-1307794659-170667a.jpg") no-repeat;
+      background-size: cover;
+    }
+}
 #navbar {
     height: 70px;
     width: auto;
@@ -85,25 +97,7 @@
     width: auto;
 }
 
-#background-video {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-}
 
-@media (max-width: 750px) {
-    #background-video { display: none; }
-    body {
-      background: url("https://github.com/coc9570/Dracco.github.io/blob/main/assets/istockphoto-1307794659-170667a.jpg") no-repeat;
-      background-size: cover;
-    }
-}
 
 #content {
     height: 650px;
