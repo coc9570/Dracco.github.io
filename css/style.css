@@ -75,9 +75,9 @@
 #logo {
     height: 100px;
     width: auto;
+    object-fit:none;
     object-position: left top;
-    top: 15px;
-    left: 5%;
+    
 }
 
 #logo img {
