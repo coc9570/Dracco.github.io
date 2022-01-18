@@ -73,9 +73,9 @@
 }
 
 #logo {
-    height: 70px;
+    height: 100px;
     width: auto;
-    position: left top;
+    object-position: left top;
     top: 15px;
     left: 5%;
 }
