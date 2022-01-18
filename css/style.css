@@ -73,16 +73,16 @@
 }
 
 #logo {
-    height: 100px;
-    width: 100px;
-    object-fit:none;
+    height: 50px;
+    width: 50px;
+    object-fit: none;
     object-position: left bottom;
     
 }
 
 #logo img {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
 }
 
 #sideImage {
