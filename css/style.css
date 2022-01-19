@@ -18,8 +18,8 @@
 
 #slideshow {
   overflow: hidden;
-  height: 768px;
-  width: 2912px;
+  height: 512px;
+  width: 786px;
   margin: auto;
 }
 
@@ -30,8 +30,8 @@
 
 .slide {
   float: left;
-  height: 768px;
-  width: 2912px;
+  height: 512px;
+  width: 786px;
 }
 
 .slide:nth-child(https://github.com/coc9570/Dracco.github.io/blob/main/assets/RED.png) {
